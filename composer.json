@@ -12,7 +12,8 @@
         "laravel/framework": "^8.40",
         "laravel/tinker": "^2.5",
         "livewire/livewire": "^2.5"
-    },
+    }
+    
     "require-dev": {
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
@@ -20,7 +21,7 @@
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
         "phpunit/phpunit": "^9.3.3"
-    },
+    }
     "autoload": {
         "psr-4": {
             "App\\": "app/",
@@ -51,13 +52,13 @@
                 "livewire/livewire"
             ]
         }
-    },
-    },
+    }
+    }
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
-    },
+    }
     "minimum-stability": "dev",
     "prefer-stable": true
 }
